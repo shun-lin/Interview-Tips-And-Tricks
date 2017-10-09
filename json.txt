@@ -1,0 +1,7 @@
+JSON, or JavaScript Object Notation, is a minimal, readable format for structuring data. It is used primarily to transmit data between a server and web application, as an alternative to XML.
+
+Have key : value pair
+
+Types of values are:
+
+Array, boolean, number, object, string
