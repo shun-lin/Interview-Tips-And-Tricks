@@ -73,3 +73,7 @@ d.values()
 d.iteritems() # return an iterator of items
 d.itervalues() # return an iterator of values
 d.has_key()
+
+# linked list
+# python does not have a directly named linked list data strctures, but collections.deque is internally implmented using doubly linked-list
+ll = collections.deque()
