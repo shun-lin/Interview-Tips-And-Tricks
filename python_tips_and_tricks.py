@@ -77,3 +77,12 @@ d.has_key()
 # linked list
 # python does not have a directly named linked list data strctures, but collections.deque is internally implmented using doubly linked-list
 ll = collections.deque()
+
+# string is immutable! need to turn it into a list to modify it and join it back
+string = "hi"
+can_modify = list(string)
+can_modify[1] = '0'
+new_string = ''.join(can_modify)
+print(new_string)
+
+# 'ho'
