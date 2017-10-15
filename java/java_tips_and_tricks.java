@@ -11,6 +11,9 @@
  * this is a javaDoc comment, for writing comments for api
  */
 
+///// print /////
+System.out.println("print this");
+
 ///// string /////
 String name = "Shun";
 // string is immutable, i.e. we cannot do something like name[2] = 's'
