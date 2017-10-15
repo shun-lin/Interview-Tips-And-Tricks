@@ -152,4 +152,26 @@ Collections.synchronizedMap(bank);
 
 ///// set /////
 
-Set<Integer>
+// set is a collection of *unique* elements
+
+// initialization
+Set<Integer> set_of_integers = new Set<Integer>();
+
+// add element
+set_of_integers.add(10);
+
+// remove element if present
+set_of_integers.remove(10);
+
+// get size
+set_of_integers.size();
+
+
+// test if an element is in the set
+boolean isTenInSet = set_of_integers.contains(10);
+
+///// iterator /////
+
+// important and basic methods for iterator
+iterator.hasNext(); // return a boolean
+iterator.next(); // return the next element in the iterator
