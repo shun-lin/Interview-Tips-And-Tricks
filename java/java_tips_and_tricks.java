@@ -60,6 +60,9 @@ namesQueue.add("Shun");
 // removal
 String first = namesQueue.remove();
 
+///// two-d array /////
+int[][] two_d_array = int[max_col][max_row];
+
 ///// priority queue /////
 
 // priority queue is a data structure that reorders queue base on the priorities of the elements
