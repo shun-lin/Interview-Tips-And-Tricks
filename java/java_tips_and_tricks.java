@@ -150,6 +150,13 @@ Tree Map sorted_bank = new TreeMap(bank);
 Collections.synchronizedMap(bank);
 // synchronizedMap provides better concurrency for parallel programming
 
+///// hashSet /////
+
+// just like hashmap, but just a set
+HashSet<Integer> hashset_of_integers = new HashSet<Integer>();
+
+// operators for hashset is very similiar to hashmap, see hashmap section of this file for more detail
+
 ///// set /////
 
 // set is a collection of *unique* elements
