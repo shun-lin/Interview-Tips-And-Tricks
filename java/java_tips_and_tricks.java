@@ -80,3 +80,44 @@ intPQ.add(10);
 // remove
 int first = intPQ.poll();
 int second = intPQ.poll();
+
+///// hashmap ///// ** very very important
+
+// initializatin
+Hashmap<Key_Type, Value_Type> hashmap = new Hashmap<Key_Type, Value_Type>();
+// caution: Key_Type and Value_Type must be hashable, for example a list is not hashable because its mutable
+
+// example
+Hashmap<String, Integer> bank = new Hashmap<String, Integer>();
+
+// insertion
+bank.put("Shun", 20);
+bank.put("Pei", -20);
+
+// get value
+bank.get("Shun");
+
+// check if hashmap contains key
+bank.containsKey("Shun"); // return a boolean, in this case true
+// get the set of keys
+Set<String> set_of_keys = bank.keySet();
+// get the iterator of set of keys
+Iterator<String> iterator_of_keys = bank.keySet().iterator();
+// value doesn't have set because value doesn't have to be unique
+
+// check if hashmap contains value
+bank.containsValue(20); // return a boolean, in this case true
+
+// get the size
+bank.size();
+// check if it is empty
+bank.isEmpty();
+
+// removing an object form the hashmap
+Object value = bank.remove(key);
+// key must be in the hashmap
+
+//sorting hashmap
+// to sort hashmap, we need to convert it to treemap
+Tree Map sorted_bank = new TreeMap(bank);
+// this will sort the hashmap, in this example the bank, by key from smallest to largest
