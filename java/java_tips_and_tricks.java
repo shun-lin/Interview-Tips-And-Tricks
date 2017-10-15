@@ -11,6 +11,29 @@
  * this is a javaDoc comment, for writing comments for api
  */
 
+///// string /////
+String name = "Shun";
+// string is immutable, i.e. we cannot do something like name[2] = 's'
+// get a char from a string
+char secondLetter = name.charAt(1);
+// length of a string
+int name_length = name.length();
+
+///// String Builder /////
+// use stringBuilder to build up strings (duh)
+StringBuilder builder = new StringBuilder();
+// optional constructors
+StringBuilder builder = new StringBuilder(int cap);
+StringBuilder builder = new StringBuilder(String str);
+
+// add to string builder
+builder.append(char c);
+// get character at
+builder.charAt(integer);
+
+// important** turn string builder back into a string
+String builder_string = builder.toString();
+
 ///// list /////
 
 // initialization
@@ -121,3 +144,12 @@ Object value = bank.remove(key);
 // to sort hashmap, we need to convert it to treemap
 Tree Map sorted_bank = new TreeMap(bank);
 // this will sort the hashmap, in this example the bank, by key from smallest to largest
+
+// advance usage
+// synchronized hashmap
+Collections.synchronizedMap(bank);
+// synchronizedMap provides better concurrency for parallel programming
+
+///// set /////
+
+Set<Integer>
