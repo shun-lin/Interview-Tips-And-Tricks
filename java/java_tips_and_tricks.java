@@ -152,7 +152,7 @@ Collections.synchronizedMap(bank);
 
 ///// hashSet /////
 
-// just like hashmap, but just a set
+// just like hashmap, but just a set, again the elements must be hashable
 HashSet<Integer> hashset_of_integers = new HashSet<Integer>();
 
 // operators for hashset is very similiar to hashmap, see hashmap section of this file for more detail
