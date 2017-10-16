@@ -11,7 +11,17 @@
  * this is a javaDoc comment, for writing comments for api
  */
 
-///// print /////
+///// i/o /////
+
+// input from System.in example
+Scanner in = new Scanner(System.in);
+int n = in.nextInt();
+String[] unsorted = new String[n];
+for(int unsorted_i=0; unsorted_i < n; unsorted_i += 1){
+    unsorted[unsorted_i] = in.next();
+}
+
+// output to system.out example
 System.out.println("print this");
 
 ///// string /////
