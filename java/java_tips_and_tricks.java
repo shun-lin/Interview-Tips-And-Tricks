@@ -185,3 +185,23 @@ boolean isTenInSet = set_of_integers.contains(10);
 // important and basic methods for iterator
 iterator.hasNext(); // return a boolean
 iterator.next(); // return the next element in the iterator
+
+///// custom comparator /////
+
+// example
+// this comparator compare integers represented in string without the need to convert string to integers
+Comparator<String> comparator = new Comparator<String>() {
+
+    @Override
+    public int compare(String s1, String s2) {
+        if (s1.length() > s2.length()) {
+            return 1;
+        }
+        else if (s1.length() < s2.length()) {
+            return -1;
+        }
+        else {
+            return s1.compareTo(s2);
+        }
+    }
+};
