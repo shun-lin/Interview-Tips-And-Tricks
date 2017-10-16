@@ -8,4 +8,8 @@ In Java, non-static methods cannot be called in a static method. ** very importa
 
 Every Java file needs public static void main method.
 
+When a derived class overrides a base class function, more restrictive access can’t be given to the overridden function.
+
+If you made a constructor for a class, i.e. public Pet(string name), and you didn't make a default constructor, i.e. public Pet() {...}, if you call the constructor with no input you will get compilation error.
+
 The above Java debugging tips are compiled from reading over geeksforgeeks.org Java multiple choice questions and solutions
