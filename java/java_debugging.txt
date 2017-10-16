@@ -24,4 +24,6 @@ t1.start();
 
 Will cause runtime error because we start t1 twice.
 
+substring(int index) method return the String from the given index to the end.
+
 The above Java debugging tips are compiled from reading over geeksforgeeks.org Java multiple choice questions and solutions

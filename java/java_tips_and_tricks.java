@@ -47,6 +47,10 @@ builder.charAt(integer);
 // important** turn string builder back into a string
 String builder_string = builder.toString();
 
+// this will return a substring of a string
+String substring1 = name.substring(int startIndex);
+String substring2 = builder_string.substring(int startIndex);
+
 ///// list /////
 
 // initialization
