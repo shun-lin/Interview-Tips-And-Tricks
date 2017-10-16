@@ -14,4 +14,14 @@ If you made a constructor for a class, i.e. public Pet(string name), and you did
 
 When calling the default constructor for an inheriting class, the super class's default constructor will be called when calling constructor of the inheriting class. (unless super(...) is called)
 
+Thread cannot be started twice.
+i.e.
+
+t1 = Thread();
+t1.start();
+t1.end();
+t1.start();
+
+Will cause runtime error because we start t1 twice.
+
 The above Java debugging tips are compiled from reading over geeksforgeeks.org Java multiple choice questions and solutions
