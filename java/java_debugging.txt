@@ -1,0 +1,11 @@
+In Java, a protected member is accessible in all classes of same package and in inherited classes of other packages.
+
+The default constructors initialize integral variables as 0 in Java.
+
+For loop termination must be a boolean expression. (1 doesn't count)
+
+In Java, non-static methods cannot be called in a static method. ** very important
+
+Every Java file needs public static void main method.
+
+The above Java debugging tips are compiled from reading over geeksforgeeks.org Java multiple choice questions and solutions
