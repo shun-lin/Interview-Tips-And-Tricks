@@ -217,3 +217,24 @@ Comparator<String> comparator = new Comparator<String>() {
         }
     }
 };
+
+///// OOP /////
+
+// example
+
+public class Pet {
+
+  private String name;
+  private int total_pets;
+
+  // this is a constructor
+  public Pet(String name) {
+
+    // this is local variable
+    this.name = name;
+    // this is global variable
+    total_pets += 1;
+  }
+}
+
+// use "extends" to inherit a class
