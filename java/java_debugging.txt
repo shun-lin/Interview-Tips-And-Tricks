@@ -37,4 +37,12 @@ For string, == compares object reference, so A = "hi", B = "hi", A == B will ret
 
 Thread must first be called by .start() first or it will not run
 
+Main objective of Garbage Collector is to free heap memory by destroying unreachable objects.
+finalize() function will be called by the object when it is in garbage collection and System.gc() is called.
+Garbage Collector will call finalize() method on a particular object exactly one time.
+
+ (int… values) is passed as parameter to a method when you are not aware of the number of input parameter but know that the type of parameter.
+
+ private functions are not visible to derived class.
+
 The above Java debugging tips are compiled from reading over geeksforgeeks.org Java multiple choice questions and solutions
