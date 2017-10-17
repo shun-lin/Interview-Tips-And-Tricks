@@ -61,6 +61,17 @@ String substring2 = builder_string.substring(int startIndex);
 List<Integer> list_of_intergers = new ArrayList<Integer>();
 // LinkedList
 List<Integer> list_of_intergers = new LinkedList<Integer>();
+
+// to reverse linkedlist, use two pointers
+// i.e.
+
+while(currNode!=null){
+     nextNode = currNode.next;
+     currNode.next = prevNode;
+     prevNode = currNode;
+     currNode = nextNode;
+}
+
 // Vector
 List<Integer> list_of_intergers = new Vector<Integer>();
 // Stack
