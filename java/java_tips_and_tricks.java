@@ -87,7 +87,7 @@ list_of_intergers.remove(index);
 // add
 list_of_intergers.add(index);
 
-// list a hashable!!
+// list is hashable!!
 
 
 
