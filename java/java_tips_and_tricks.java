@@ -21,8 +21,10 @@ for(int unsorted_i=0; unsorted_i < n; unsorted_i += 1){
     unsorted[unsorted_i] = in.next();
 }
 
-// output to system.out example
+// output to system.out example, this print and next print will be in next line
 System.out.println("print this");
+// this print will not return a new line
+System.out.print("no new line");
 
 ///// string /////
 String name = "Shun";
