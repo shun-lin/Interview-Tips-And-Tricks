@@ -43,6 +43,8 @@ Garbage Collector will call finalize() method on a particular object exactly one
 
  (int… values) is passed as parameter to a method when you are not aware of the number of input parameter but know that the type of parameter.
 
- private functions are not visible to derived class.
+ private functions are not visible to derived class. This will cause compile error.
+
+ Static blocks in Java are executed even before the call to main is made by the compiler.
 
 The above Java debugging tips are compiled from reading over geeksforgeeks.org Java multiple choice questions and solutions
