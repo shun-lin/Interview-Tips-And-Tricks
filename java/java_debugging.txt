@@ -35,4 +35,6 @@ if fun() is a static method, A.fun() will be executed
 For string, == compares object reference, so A = "hi", B = "hi", A == B will return false
 .equals() should be used to compare actual characters
 
+Thread must first be called by .start() first or it will not run
+
 The above Java debugging tips are compiled from reading over geeksforgeeks.org Java multiple choice questions and solutions
