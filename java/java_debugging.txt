@@ -26,4 +26,10 @@ Will cause runtime error because we start t1 twice.
 
 substring(int index) method return the String from the given index to the end.
 
+Static methods CAN NOT be overriden. So the static type of the method will be executed:
+EX:
+A x = new B(); where B extends A
+x.fun();
+if fun() is a static method, A.fun() will be executed
+
 The above Java debugging tips are compiled from reading over geeksforgeeks.org Java multiple choice questions and solutions
