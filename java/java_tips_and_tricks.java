@@ -108,7 +108,8 @@ int[][] two_d_array = int[max_col][max_row];
 ///// priority queue /////
 
 // priority queue is a data structure that reorders queue base on the priorities of the elements
-// important*** the default java priority queue is implemented as min heap
+// important*** the default java priority queue is implemented as min heap, so if you need to use heap for your interview
+// but don't necessary have to implement it, you can just use priority queue
 Queue<Integer> intPQ = new PriorityQueue<Integer>(max_size_of_pq, comparator);
 
 // advance usage
