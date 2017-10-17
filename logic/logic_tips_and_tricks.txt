@@ -1,0 +1,6 @@
+When given letters sometime it is a good thing to turn them into numbers.
+
+When given numbers, maybe we need to do sometime about the digits of the number (i.e. 102, 1+0+2 = 3)
+To find patterns.
+
+Add and mult is very important key to solve logic problems.

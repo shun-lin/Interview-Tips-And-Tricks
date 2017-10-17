@@ -47,4 +47,8 @@ Garbage Collector will call finalize() method on a particular object exactly one
 
  Static blocks in Java are executed even before the call to main is made by the compiler.
 
+ A non-static variable can not be accessed in static nested inner class.
+
+Constructors cannot be enclosed in try/catch block.
+
 The above Java debugging tips are compiled from reading over geeksforgeeks.org Java multiple choice questions and solutions
