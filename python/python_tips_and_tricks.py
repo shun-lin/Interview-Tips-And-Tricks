@@ -30,7 +30,7 @@ l_squared = [x ** 2 for x in l]
 # set is an unordered collection of elements, and those elements are unique
 s = set(l)
 s = set()
-s = {1, 2 , 3}
+s = {1, 2, 3}
 
 # elements in a set must be hashable, list is not hashable, need to use tuple instead
 s = set([1, [2, 3]]) # this will throw exception as [2, 3] is unhashable
